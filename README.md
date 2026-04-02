@@ -6,6 +6,10 @@
 
 A comprehensive repository for query reformulation research, implementing **several established baselines** and introducing **ReFormeR**, a novel pattern-based approach for improving information retrieval through intelligent query reformulation.
 
+### QueryGym: unified toolkit for LLM-based query reformulation
+
+**[QueryGym](https://github.com/ls3-lab/QueryGym/tree/main)** provides a **single, unified framework** for running and comparing **LLM-based query reformulation methods** (e.g., GenQR, GenQR-Ensemble, Query2Doc, QA-Expand, MuGI, and related approaches) with shared data loading, prompt handling, and reproducible workflows. Use QueryGym when you want one library across methods; use **this repository** for the **ReFormeR** contribution, bundled baselines as used in our experiments, and the **datasets / runs** shipped here.
+
 ## 📁 Repository Structure
 
 ```
@@ -60,6 +64,7 @@ query-reformulation/
 
 This repository provides a complete framework for query reformulation research, featuring:
 
+- **QueryGym** ([repo](https://github.com/ls3-lab/QueryGym/tree/main)): Unified toolkit for LLM-based query reformulation methods—use it as the shared framework across baselines and integrations
 - **ReFormeR**: Novel query reformulation approach (our main contribution)
 - **Several Baseline Methods**: MuGI, QA-EXPAND, GenQR-Ensemble, FlanQR, and Query2Doc variants
 - **Pattern Extraction**: Tools for learning reformulation patterns from data
